@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.theodmoul.com/sitemap.xml
+Sitemap: https://sotiriosmoustogiannis.github.io/theodoraSite/sitemap.xml
