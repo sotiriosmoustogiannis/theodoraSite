@@ -14,7 +14,7 @@ h2{font-size:clamp(2.6rem,5vw,4.7rem);letter-spacing:-.025em}
 h3{font-size:1.8rem} p{margin:0 0 18px}
 .eyebrow{font-size:.76rem;text-transform:uppercase;letter-spacing:.18em;color:var(--rose-dark);font-weight:800;margin-bottom:16px}
 .lead{font-size:1.15rem;color:#5f5855;max-width:680px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 22px;border-radius:999px;background:var(--rose-dark);color:white;border:1px solid var(--rose-dark);transition:.25s ease}
+.btn{display:inline-flex;align-items:center;justify-content:center;color:white;gap:9px;padding:14px 22px;border-radius:999px;background:var(--rose-dark);color:white;border:1px solid var(--rose-dark);transition:.25s ease}
 .btn:hover{transform:translateY(-2px);background:#966f6d}
 .btn.ghost{background:transparent;color:var(--ink);border-color:#bdb4b0}.btn.ghost:hover{background:white}
 .section{padding:105px 0}.section-sm{padding:70px 0}
@@ -27,6 +27,7 @@ h3{font-size:1.8rem} p{margin:0 0 18px}
 .brand img{width:360px;max-width:48vw}
 .nav-links{display:flex;align-items:center;gap:25px}.nav-links a{font-size:.92rem;color:#655e5b}
 .nav-links a:hover,.nav-links a.active{color:var(--rose-dark)}
+.nav-links a.btn,.nav-links a.btn:hover,.nav-links a.btn.active{color:white}
 .menu-check{display:none}.menu-label{display:none}
 
 /* home hero */
@@ -296,6 +297,8 @@ footer{padding:34px 0 18px}
   .hero-art{min-height:310px}
   .section{padding:46px 0}
   .intro-grid,.editorial,.band-grid,.article-wrap,.contact-grid,.footer-grid{gap:24px}
+  .article-wrap{grid-template-columns:1fr}
+  .article-wrap .side{display:none}
   .visual-panel{min-height:275px}
   .modern-card{padding:18px}
   .service-row{padding:18px 15px}
